@@ -26,7 +26,7 @@ def main():
             pipe.move(score)
             if score % 5 == 0:
                 if pipe.gap > 100:
-                    pipe.gap -=20
+                    pipe.gap -=40
 
 
 
